@@ -1,4 +1,5 @@
 # If you come from bash you might have to change your $PATH.
+#
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 export PATH=/usr/.local/bin:$PATH
 export PATH=/usr/.local:$PATH
@@ -122,4 +123,6 @@ export PATH="$PATH:/home/derek/.local/bin"
 export PATH="$PATH:/home/derek/.cargo/bin"
 
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+
+add-zsh-hook -d precmd prompt_grml_precmd
 
