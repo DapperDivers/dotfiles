@@ -112,7 +112,7 @@ ZOXIDE_CMD_OVERRIDE=true
 alias htb="sudo openvpn ~/Workspace/htb/lab_barediver.ovpn"
 alias zshconfig="nano ~/.zshrc"
 alias reload="omz reload"
-alias autorecon="sudo $(which autorecon) --dirbuster.tool gobuster"
+alias autorecon="sudo $(which autorecon)"
 alias hack-init=". /home/derek/Workspace/scripts/hack_init/hack_init"
 
 source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
