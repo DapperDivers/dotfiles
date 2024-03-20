@@ -1,0 +1,33 @@
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20240320T170434Z"}
+txn:
+  type: interval
+  before: {"id":1,"start":"20240320T170434Z"}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20240320T170434Z","end":"20240320T170455Z"}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20240320T170501Z"}
+txn:
+  type: interval
+  before: {"id":1,"start":"20240320T170501Z"}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20240320T170501Z","end":"20240320T170508Z"}
+txn:
+  type: interval
+  before: 
+  after: {"id":0,"start":"20240320T180038Z","tags":["synced"]}
+txn:
+  type: interval
+  before: {"id":1,"start":"20240320T180038Z","tags":["synced"]}
+  after: 
+  type: interval
+  before: 
+  after: {"id":1,"start":"20240320T180038Z","end":"20240320T181731Z","tags":["synced"]}
