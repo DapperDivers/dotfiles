@@ -117,8 +117,8 @@ export XDG_RUNTIME_DIR=/tmp/zsh
 
 ZOXIDE_CMD_OVERRIDE=true
 
-alias htb="sudo openvpn ~/Workspace/htb/lab_barediver.ovpn"
-alias htbsp="sudo openvpn ~/Workspace/htb/starting_point_barediver.ovpn"
+alias htb="sudo openvpn ~/Workspace/Boxes/htb/lab_barediver.ovpn"
+alias htbsp="sudo openvpn ~/Workspace/Boxes/htbsp/starting_point_barediver.ovpn"
 
 alias zshconfig="chezmoi edit ~/.zshrc"
 alias che="chezmoi edit"
