@@ -125,7 +125,7 @@ alias che="chezmoi edit"
 alias cha="chezmoi apply"
 alias reload="omz reload"
 alias autorecon="sudo $(which autorecon) --dirbuster.tool gobuster"
-alias hack-init=". /home/derek/Workspace/scripts/hack_init/hack_init"
+alias hack-init=". /home/derek/Workspace/Scripts/oscp_scripts/hack_init/hack_init"
 
 
 source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
