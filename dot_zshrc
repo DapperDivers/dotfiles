@@ -117,6 +117,7 @@ export XDG_RUNTIME_DIR=/tmp/zsh
 ZOXIDE_CMD_OVERRIDE=true
 
 alias htb="sudo openvpn ~/Workspace/htb/lab_barediver.ovpn"
+alias htb-sp="sudo openvpn ~/Workspace/htb/starting_point_barediver.ovpn"
 alias zshconfig="nano ~/.zshrc"
 alias reload="omz reload"
 alias autorecon="sudo $(which autorecon) --dirbuster.tool gobuster"
