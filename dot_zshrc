@@ -120,7 +120,9 @@ ZOXIDE_CMD_OVERRIDE=true
 alias htb="sudo openvpn ~/Workspace/htb/lab_barediver.ovpn"
 alias htbsp="sudo openvpn ~/Workspace/htb/starting_point_barediver.ovpn"
 
-alias zshconfig="nano ~/.zshrc"
+alias zshconfig="chezmoi edit ~/.zshrc"
+alias che="chezmoi edit"
+alias cha="chezmoi apply"
 alias reload="omz reload"
 alias autorecon="sudo $(which autorecon) --dirbuster.tool gobuster"
 alias hack-init=". /home/derek/Workspace/scripts/hack_init/hack_init"
@@ -138,6 +140,6 @@ eval $(thefuck --alias)
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-fortune -s   | cowsay -f dragon | lolcat
+fortune -s | cowsay -f dragon | lolcat
 
 
