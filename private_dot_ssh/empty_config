@@ -1,5 +1,5 @@
-Host myhost
-  Hostname host
-  User user
+Host docker-host
+  Hostname 192.168.1.17
+  User derek
   RequestTTY yes 
-  RemoteCommand tmux new -A -s foob
+  RemoteCommand tmux new -A -s homelab
