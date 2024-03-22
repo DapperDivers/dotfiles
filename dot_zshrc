@@ -162,7 +162,7 @@ alias htbsp="sudo openvpn ~/Workspace/Boxes/htbsp/starting_point_barediver.ovpn"
 alias che="chezmoi edit"
 alias cha="chezmoi apply"
 
-alias reload="omz reload"
+alias reload="omz reload; tmux source ~/.tmux.conf "
 
 alias vim="nvim"
 alias vi="nvim"
