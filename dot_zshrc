@@ -101,6 +101,11 @@ else
   export EDITOR='nvim'
 fi
 
+# Use tmux if it exists on remote 
+if [[ $- =~ i ]] && [[ -z "$TMUX" ]] && [[ -n "$SSH_TTY" ]]; then
+  tmux attach-session -t ssh_tmux || tmux new-session -s ssh_tmux
+fi
+
 # Compilation flags
 export ARCHFLAGS="-arch x86_64"
 
@@ -177,7 +182,8 @@ eval $(thefuck --alias)
 fortune -s | cowsay -f dragon | lolcat
 
 
-
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+
