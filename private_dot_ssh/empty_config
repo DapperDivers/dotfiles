@@ -1,0 +1,5 @@
+Host myhost
+  Hostname host
+  User user
+  RequestTTY yes 
+  RemoteCommand tmux new -A -s foob
