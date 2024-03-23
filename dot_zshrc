@@ -168,8 +168,7 @@ source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 export PATH="$PATH:/home/derek/.local/bin"
 export PATH="$PATH:/home/derek/.cargo/bin"
 
-export PATH="$HOME/.tmux/plugins/tmuxifier/bin"
-eval "$(tmuxifier init -)
+
 
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 eval $(thefuck --alias)
@@ -185,3 +184,5 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 
+export PATH="$HOME/.tmux/plugins/tmuxifier/bin"
+eval "$(tmuxifier init -)"
