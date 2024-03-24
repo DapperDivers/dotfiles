@@ -1,9 +1,12 @@
 import: [~/.config/alacritty/nord.toml]
-
 live_config_reload = true
 
 [env]
 TERM = "xterm-256color"
+
+[window.padding]
+x = 25
+y = 20
 
 [font]
 size = 20.0
@@ -28,7 +31,3 @@ style = "Medium"
 decorations = "buttonless"
 dynamic_padding = false
 opacity = 0.9
-
-[window.padding]
-x = 25
-y = 20
