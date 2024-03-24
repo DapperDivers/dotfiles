@@ -117,9 +117,11 @@ export XDG_RUNTIME_DIR=/tmp/zsh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 ## Colorize the ls output ##
-alias ls='ls --color=auto'
+alias ls='lsd'
 ## Use a long listing format ##
-alias ll='ls -la'
+alias ll='lsd -l'
+## Use a long listing format with hidden
+alias la='lsd -la'
 
 ## set some other defaults ##
 alias df='df -H'
