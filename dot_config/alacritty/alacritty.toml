@@ -1,4 +1,7 @@
-import: [~/.config/alacritty/nord.toml]
+## import nord theme
+import: ~/.config/alacritty/nord.toml
+
+## remove the need for close and reopen
 live_config_reload = true
 
 [env]
@@ -24,9 +27,9 @@ family = "Hack Nerd Font"
 style = "Medium"
 
 [window]
-decorations = "buttonless"
+decorations = "Full"
 dynamic_padding = false
-opacity = 0.9
+opacity = 0.8
 
 [window.padding]
 x = 25
