@@ -123,6 +123,9 @@ alias ll='lsd -l'
 ## Use a long listing format with hidden
 alias la='lsd -la'
 
+##quality of life for me
+alias cls='clear'
+
 ## set some other defaults ##
 alias df='df -H'
 alias du='du -ch'
