@@ -1,4 +1,5 @@
 import: [~/.config/alacritty/nord.toml]
+
 live_config_reload = true
 
 [env]
